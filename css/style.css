@@ -6,11 +6,31 @@
 
 .container{
   border: 1px solid black;
-  margin: 10px;
+  background-color: blue;
+  width: 95%;
   margin: auto;
+}
+
+.raw{
+  background-color: red;
 }
 
 .box{
   display: inline-block;
   position: relative;
+  background-color: green;
+}
+
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+div:nth-child(2) .discount{
+  background-color: red;
+}
+
+.heart{
+
 }
