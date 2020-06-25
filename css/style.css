@@ -32,5 +32,14 @@ div:nth-child(2) .discount{
 }
 
 .heart{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: red;
+  font-size: 20;
+}
 
+.box:hover > .heart{
+  display: block;
 }
