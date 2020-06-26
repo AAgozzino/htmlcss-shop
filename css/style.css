@@ -9,6 +9,7 @@
   width: 90%;
   margin: auto;
   text-align: center;
+  /* text-align:center centra il contenuto display:inline-block o display:block rispetto al suo contenitore, NON il contenitore rispetto al padre */
 }
 
 .row{
