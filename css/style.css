@@ -5,12 +5,14 @@
 }
 
 .container{
-  border: 1px solid black;
-  /* width: 95%; */
+  /* border: 1px solid black; */
+  width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 .row{
+  margin-bottom: 20px;
   /* background-color: red; */
 }
 
