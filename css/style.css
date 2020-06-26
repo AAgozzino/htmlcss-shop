@@ -6,19 +6,17 @@
 
 .container{
   border: 1px solid black;
-  background-color: blue;
-  width: 95%;
+  /* width: 95%; */
   margin: auto;
 }
 
-.raw{
-  background-color: red;
+.row{
+  /* background-color: red; */
 }
 
 .box{
   display: inline-block;
   position: relative;
-  background-color: green;
 }
 
 .discount{
@@ -27,6 +25,7 @@
   right: 0;
   background-color: green;
 }
+/* così se aggiungo un prodotto prima non funziona prima, è più semplice dando più classi e sovrascrivendo il background */
 div:nth-child(2) .discount{
   background-color: red;
 }
@@ -34,11 +33,14 @@ div:nth-child(2) .discount{
 .heart{
   display: none;
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+  /* left: 50%; */
   color: red;
-  font-size: 20;
+  font-size: 30px;
 }
+/* position:absolute toglie dal flusso e fa perdere la largezza del div --> metto width 100% che sarebbe il 100% del contenitore .box*/
 
 .box:hover > .heart{
   display: block;
